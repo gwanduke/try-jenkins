@@ -6,7 +6,7 @@ def call(String message) {
             stage('Checkout') {
                 steps {
                     script {
-                        echo 'Checking out code...'
+                        echo 'This is dev branch'
                         // Git 리포지토리를 자격 증명과 함께 체크아웃
                         // checkout([
                         //     $class: 'GitSCM',
